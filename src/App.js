@@ -6,7 +6,7 @@ function App() {
 
   // TO DO: Update with correct endpoint
   useEffect(() => {
-    fetch("https://my-fancy-backend.herokuapp.com/")
+    fetch("https://my-fancy-backend.herokuapp.com/users")
       .then((response) => response.json())
       .then((result) => console.log(result))
       .catch((error) => console.log("error", error));
